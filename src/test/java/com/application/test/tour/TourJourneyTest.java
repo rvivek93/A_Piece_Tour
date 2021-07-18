@@ -16,15 +16,15 @@ public class TourJourneyTest {
 	
 	@Test
 	public void testPieceJourney_whenStartingPositionIsInvalid_shouldThrowException() {
-		
+
 		int row_Position = -1;
-		int col_Position =  2;
+		int col_Position = 2;
 		int[][] visitedBlocks = new int[10][10];
 
-				Throwable exception = assertThrows(IllegalArgumentException.class,
-						() -> journey.pieceJourney(row_Position, col_Position, 1, visitedBlocks));
-				assertEquals(exception.getMessage(), "Position of the Piece is invalid.");
-		}
+		Throwable exception = assertThrows(IllegalArgumentException.class,
+				() -> journey.pieceJourney(row_Position, col_Position, 1, visitedBlocks));
+		assertEquals(exception.getMessage(), "Position of the Piece is invalid.");
+	}
 
 	@Test
 	public void testPieceJourney_whenStartingPositionIsValidButCantCompleteTheTour_shouldThrowException() {

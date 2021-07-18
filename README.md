@@ -35,6 +35,15 @@ Used Warnsdorff's rule in implementing the algorithm as the backtracking algorit
 1. If the start position of P(X,Y) is invalid then throw, "Position is not Valid." and end the tour.
 2. If the Tour cant be feasible due to no more avaialble next moves then throw, "Tour cant be Feasible."
 
+# Test Case Scenarios
+1. Implemented Test case to throw an exception when the given start position(X,Y) is invalid.
+2. Implemented Test case to throw an exception when the tour cant be feasible or completed.
+3. Implemented Test case to initialize the board before tour starts.
+4. Implemented Test case to find all the possible moves of a Piece and complete the tour for different positions.
+5. Implemented Test case to find the next minimum favorable position for the Piece to move.
+6. Implemented Test case to validate if the next move is Valid or not.
+7. Implemented Test case to display the board once the tour is completed with appropriate spacings.
+
 # Build And Deploy
 Instructions in running the Maven project locally.
 

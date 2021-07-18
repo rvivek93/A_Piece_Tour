@@ -55,9 +55,11 @@ Instructions in running the Maven project locally.
 1. Open CMD-PROMPT and switch the directory to the project, like C:/users/Java8/PieceTour.
 2. Run mvn clean install
 3. Build and Tests will run.
+
 ![image](https://user-images.githubusercontent.com/67907069/126064280-983179f8-4b5d-4555-a957-23959654a060.png)
 
 # Running Tests as a whole
+
 ![image](https://user-images.githubusercontent.com/67907069/126064335-6ecfb0b0-2852-4040-a972-d65b640c7a31.png)
 
 # Running Individual Tests
